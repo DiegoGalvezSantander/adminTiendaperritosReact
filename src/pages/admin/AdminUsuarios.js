@@ -10,7 +10,7 @@ import ListaUsuarios from '../../components/admin/ListaUsuarios';
 
 export default function AdminUsuarios() {
     const [usuarios, setUsuarios] = useState(obtenerUsuarios());
-    const [editando, setEditando] = useState(null); // guarda email original
+    const [editando, setEditando] = useState(null);
     const [creando, setCreando] = useState(false);
 
     const refrescar = () => setUsuarios(obtenerUsuarios());
