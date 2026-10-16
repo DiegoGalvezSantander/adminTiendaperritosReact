@@ -500,7 +500,7 @@ button {
     color: var(--verde-oscuro);
 }
 
-/* ✅ FIX 1 — Regla global (fuera de media queries) */
+
 .admin-sidebar a.activo,
 .menu-admin.activo {
     background-color: var(--verde-claro);
