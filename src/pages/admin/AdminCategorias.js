@@ -21,7 +21,7 @@ export default function AdminCategorias() {
             const catVieja = categorias.find(c => c.id === editando);
             const nombreNuevo = nombre.trim();
 
-            // ✅ Si el nombre cambió, actualizamos los productos que la usaban
+            
             if (catVieja && catVieja.nombre !== nombreNuevo) {
                 const productosActuales = obtenerProductos();
                 const productosActualizados = productosActuales.map(p =>
