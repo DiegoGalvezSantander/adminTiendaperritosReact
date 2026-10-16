@@ -8,7 +8,7 @@ export default function AdminReportes() {
     const totalVentas = ordenes.reduce((s, o) => s + o.total, 0);
     const criticos = productos.filter(p => p.stock <= p.stockCritico);
 
-    // ✅ Producto más vendido
+    
     const ventasPorProducto = {};
     ordenes.forEach(o => {
         o.productos.forEach(p => {
@@ -22,7 +22,7 @@ export default function AdminReportes() {
     const topProducto = Object.values(ventasPorProducto)
         .sort((a, b) => b.cantidad - a.cantidad)[0];
 
-    // ✅ Categoría más vendida
+    
     const ventasPorCategoria = {};
     ordenes.forEach(o => {
         o.productos.forEach(p => {
