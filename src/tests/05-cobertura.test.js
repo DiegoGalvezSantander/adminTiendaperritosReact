@@ -37,7 +37,7 @@ describe('Cobertura - Usuarios', () => {
     });
 
     it('eliminarUsuario remueve por email', () => {
-        obtenerUsuarios(); // asegura admin
+        obtenerUsuarios(); 
         crearUsuario({
             rut: '333333333', nombre: 'Eliminar', apellidos: 'Test',
             email: 'eliminar@duoc.cl', password: '1234', tipo: 'Cliente'
