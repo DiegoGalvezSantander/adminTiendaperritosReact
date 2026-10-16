@@ -12,7 +12,7 @@ export function SesionProvider({ children }) {
         localStorage.setItem('sesion', JSON.stringify(usuario));
     };
 
-    // ✅ Sin navigate aquí. Cada consumidor decide a dónde ir después.
+    
     const cerrarSesion = () => {
         setSesion(null);
         localStorage.removeItem('sesion');
