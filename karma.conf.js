@@ -57,7 +57,7 @@ module.exports = function(config) {
             includeAllSources: true,
             check: {
                 global: {
-                    // ✅ Ajustados a tu cobertura real (con margen de seguridad)
+                    
                     statements: 50,
                     branches: 38,
                     functions: 50,
