@@ -1,0 +1,41 @@
+# ============ Dependencias ============
+node_modules/
+/.pnp
+.pnp.js
+
+# ============ Testing / Cobertura ============
+coverage/
+coverage-summary.json
+
+# ============ Producción ============
+build/
+dist/
+
+# ============ Editor ============
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============ Logs ============
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ============ Variables de entorno ============
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============ Cache ============
+.cache/
+.parcel-cache/
+.eslintcache
