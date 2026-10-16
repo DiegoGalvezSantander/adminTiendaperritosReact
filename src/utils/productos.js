@@ -75,7 +75,7 @@ export function validarNombre(nombre, max = 50) {
     return !!nombre && nombre.length <= max;
 }
 
-// ============ LÓGICA DE NEGOCIO (funciones puras, testeables) ============
+
 
 export function calcularTotal(carrito) {
     return carrito.reduce((s, p) => s + p.precio * p.cantidad, 0);
